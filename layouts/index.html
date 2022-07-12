@@ -1,0 +1,7 @@
+{{ define "main" }}
+    {{ .Content }}
+
+    {{ if not hugo.IsProduction }}
+        <a href="{{ .Site.BaseURL }}/404.html">404</a>
+    {{ end }}
+{{ end }}
