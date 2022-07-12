@@ -5,14 +5,14 @@
 
 Hi! 👋
 
-Find me:
+🔍 Find me:
 
 - GitHub: [@FedericoSchonborn](https://github.com/FedericoSchonborn)
 - Mastodon: [@FedericoSchonborn](https://mastodon.social/@FedericoSchonborn)
 - Pixelfed: [@FedericoSchon](https://pixelfed.social/i/web/profile/452313118060737153)
 - Twitter: [@FedericoSchon](https://twitter.com/FedericoSchon)
 
-Support me:
+💰 Support me:
 
 - Ko-fi: [@FedericoSchonborn](https://ko-fi.com/FedericoSchonborn)
 - LiberaPay: [@FedericoSchonborn](https://liberapay.com/FedericoSchonborn)

@@ -1,5 +1,5 @@
-# FedericoSchonborn.me [↗️][link]
+# FedericoSchonborn.me
 
-Source code of my personal website, hosted on GitHub Pages.
+Source code of my personal website, hosted on GitHub Pages. [↗️][link]
 
 [link]: https://FedericoSchonborn.me/
