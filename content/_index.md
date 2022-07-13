@@ -3,7 +3,7 @@
 
 <!-- markdownlint-disable MD041 -->
 
-Hi! 👋
+👋 Hi!
 
 🔍 Find me:
 
