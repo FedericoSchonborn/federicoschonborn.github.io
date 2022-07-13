@@ -5,7 +5,7 @@
 
 👋 Hi!
 
-My name is Federico Damián Schonborn, I'm from Buenos Aires, Argentina 🇦🇷 and was born in May 20th, 1998.
+🙋‍♂️ My name is Federico Damián Schonborn, I'm from Buenos Aires, Argentina 🇦🇷 and was born in May 20th, 1998.
 
 🔍 Find me:
 
