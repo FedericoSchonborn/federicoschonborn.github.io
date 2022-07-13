@@ -1,3 +1,6 @@
 title = "Federico Damián Schonborn"
 baseURL = "https://federicoschonborn.me/"
 languageCode = "en"
+
+[params]
+description = "Personal site for Federico Damián Schonborn"
