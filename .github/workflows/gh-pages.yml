@@ -27,5 +27,5 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           cname: federicoschonborn.me
-          full_commit_message: ${{ github.event.head_commit.id }} ${{ github.event.head_commit.message }}
+          full_commit_message: (${{ github.event.head_commit.id }}) ${{ github.event.head_commit.message }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
