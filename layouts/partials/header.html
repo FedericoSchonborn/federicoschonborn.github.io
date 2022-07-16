@@ -1,14 +1,18 @@
-<p>{{ site.Title }}</p>
-<ul>
-    {{ with site.Home }}
-        <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-    {{ end }}
+<header>
+    <h1>{{ site.Title }}</h1>
+    <nav>
+        <ul>
+            {{ with site.Home }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
 
-    {{ range site.RegularPages }}
-        <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-    {{ end }}
-</ul>
+            {{ range site.RegularPages }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>
