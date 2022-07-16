@@ -13,6 +13,14 @@
                     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                 </li>
             {{ end }}
+
+            {{ if .IsTranslated }}
+                {{ range .Translations }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                    </li>
+                {{ end }}
+            {{ end }}
         </ul>
     </nav>
 </header>

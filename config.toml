@@ -1,8 +1,0 @@
-title = "Federico Damián Schonborn"
-baseURL = "https://federicoschonborn.me/"
-languageCode = "en"
-enableGitInfo = true
-
-[params]
-description = "Personal site for Federico Damián Schonborn"
-source = "https://github.com/FedericoSchonborn/federicoschonborn.github.io"

@@ -6,7 +6,7 @@ title = "Home"
 
 👋 Hi!
 
-🙋‍♂️ My name is Federico Damián Schonborn, I'm from Buenos Aires, Argentina 🇦🇷 and was born in May 20th, 1998.
+🙋‍♂️ My name is Federico Damián Schonborn, I live in Buenos Aires, Argentina 🇦🇷 and was born in May 20th, 1998.
 
 🔍 Find me:
 
@@ -22,5 +22,3 @@ title = "Home"
 - OpenCollective: [@FedericoSchonborn](https://opencollective.com/FedericoSchonborn)
 - Patreon: [@FedericoSchonborn](https://patreon.com/FedericoSchonborn)
 - PayPal: [@fdschonborn](https://paypal.me/fdschonborn)
-
-🦀

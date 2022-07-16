@@ -1,0 +1,20 @@
+title: Federico Damián Schonborn
+baseURL: https://federicoschonborn.me/
+enableGitInfo: yes
+
+languages:
+  en:
+    languageName: English
+    weight: 0
+    contentDir: content/en
+    params:
+      description: Personal site for Federico Damián Schonborn
+  es:
+    languageName: Español
+    weight: 1
+    contentDir: content/es
+    params:
+      description: Sitio personal de Federico Damián Schonborn
+
+params:
+  source: https://github.com/FedericoSchonborn/federicoschonborn.github.io
