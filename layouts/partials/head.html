@@ -5,5 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.Params.description }}">
 
+    {{ $css := resources.Get "scss/global.scss" | toCSS (dict "targetPath" "css/global.css" "output" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
+    {{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}">
+
     <title>{{ with .Title }}{{ . }} &middot; {{ end }}{{ site.Title }}</title>
 </head>

@@ -9,5 +9,6 @@
         "Schon",
         "Schonborn"
     ],
-    "html.format.templating": true
+    "html.format.templating": true,
+    "scss.format.spaceAroundSelectorSeparator": true
 }

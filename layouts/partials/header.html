@@ -1,25 +1,25 @@
 <header>
-    <h1>{{ site.Title }}</h1>
+    <h1 id="title">{{ site.Title }}</h1>
     <nav>
         <ul>
             {{ with site.Home }}
-                <li>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                </li>
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
             {{ end }}
 
             {{ range site.RegularPages }}
-                <li>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                </li>
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
             {{ end }}
 
             {{ if .IsTranslated }}
-                {{ range .Translations }}
-                    <li>
-                        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-                    </li>
-                {{ end }}
+            {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            </li>
+            {{ end }}
             {{ end }}
         </ul>
     </nav>
