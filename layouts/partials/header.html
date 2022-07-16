@@ -1,6 +1,14 @@
 <p>{{ site.Title }}</p>
 <ul>
-    <li>
-        <a href="{{ site.BaseURL }}">Home</a>
-    </li>
+    {{ with site.Home }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+    {{ end }}
+
+    {{ range site.RegularPages }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+    {{ end }}
 </ul>
