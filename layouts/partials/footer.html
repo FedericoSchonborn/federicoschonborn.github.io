@@ -1,6 +1,4 @@
 <p>
-    Built with Hugo {{ hugo.Version }}.
-    {{ with .GitInfo }}
-        <a href="{{ site.Params.source }}/tree/{{ .AbbreviatedHash }}">Source</a>.
-    {{ end }}
+    Built using Hugo {{ hugo.Version }}.
+    <a href="{{ site.Params.source }}{{ with .GitInfo }}/tree/{{ .AbbreviatedHash }}{{ end }}">Source</a>.
 </p>
