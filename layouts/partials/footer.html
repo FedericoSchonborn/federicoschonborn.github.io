@@ -1,6 +1,6 @@
 <footer>
     <p>
-        Built using Hugo {{ hugo.Version }}.
-        <a href="{{ site.Params.source }}{{ with .GitInfo }}/tree/{{ .AbbreviatedHash }}{{ end }}">Source</a>.
+        {{ i18n "footer-hugo" }} v{{ hugo.Version }}.
+        <a href="{{ site.Params.source }}{{ with .GitInfo }}/tree/{{ .Hash }}{{ end }}">{{ i18n "footer-source" }}</a>.
     </p>
 </footer>

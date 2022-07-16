@@ -1,11 +1,12 @@
 {{ define "main" }}
+<article>
     {{ .Content }}
-
-    <ul>
-        {{ range .RegularPages }}
-            <li>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
-        {{ end }}
-    </ul>
+</article>
+<ul>
+    {{ range .RegularPages }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
 {{ end }}
