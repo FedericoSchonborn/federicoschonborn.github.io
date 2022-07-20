@@ -4,7 +4,8 @@ baseURL: https://federicoschonborn.me/
 enableGitInfo: yes
 markup:
   goldmark:
-    unsafe: yes
+    renderer:
+      unsafe: yes
 
 languages:
   en:
