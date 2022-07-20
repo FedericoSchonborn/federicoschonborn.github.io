@@ -1,6 +1,10 @@
 title: Federico Damián Schonborn
 baseURL: https://federicoschonborn.me/
+
 enableGitInfo: yes
+markup:
+  goldmark:
+    unsafe: yes
 
 languages:
   en:
