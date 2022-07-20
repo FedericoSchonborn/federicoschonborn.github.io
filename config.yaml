@@ -7,6 +7,10 @@ markup:
     renderer:
       unsafe: yes
 
+disableKinds:
+  - taxonomy
+  - term
+
 languages:
   en:
     languageName: English
