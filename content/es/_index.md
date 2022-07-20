@@ -2,7 +2,7 @@
 title = "Inicio"
 +++
 
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD033 MD041 -->
 
 👋 Hola!
 
@@ -11,7 +11,7 @@ title = "Inicio"
 🔍 Encuéntrame:
 
 - GitHub: [@FedericoSchonborn](https://github.com/FedericoSchonborn)
-- Mastodon: [@FedericoSchonborn](https://mastodon.social/@FedericoSchonborn)
+- Mastodon: <a rel="me" href="https://mastodon.social/@FedericoSchonborn">@FedericoSchonborn</a>
 - Pixelfed: [@FedericoSchon](https://pixelfed.social/i/web/profile/452313118060737153)
 - Twitter: [@FedericoSchon](https://twitter.com/FedericoSchon)
 

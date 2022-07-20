@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD033 MD041 -->
 
 👋 Hi!
 
@@ -11,7 +11,8 @@ title = "Home"
 🔍 Find me:
 
 - GitHub: [@FedericoSchonborn](https://github.com/FedericoSchonborn)
-- Mastodon: [@FedericoSchonborn](https://mastodon.social/@FedericoSchonborn)
+<!-- markdownlint-disable MD033 -->
+- Mastodon: <a rel="me" href="https://mastodon.social/@FedericoSchonborn">@FedericoSchonborn</a>
 - Pixelfed: [@FedericoSchon](https://pixelfed.social/i/web/profile/452313118060737153)
 - Twitter: [@FedericoSchon](https://twitter.com/FedericoSchon)
 
