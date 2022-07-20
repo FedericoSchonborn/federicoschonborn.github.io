@@ -1,6 +1,6 @@
-+++
-title = "Inicio"
-+++
+---
+title: "Inicio"
+---
 
 <!-- markdownlint-disable MD033 MD041 -->
 

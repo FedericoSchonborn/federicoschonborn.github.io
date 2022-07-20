@@ -1,6 +1,6 @@
-+++
-title = "Home"
-+++
+---
+title: "Home"
+---
 
 <!-- markdownlint-disable MD033 MD041 -->
 
