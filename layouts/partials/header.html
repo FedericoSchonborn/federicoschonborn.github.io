@@ -1,13 +1,7 @@
 <header>
-    <h1 id="title">{{ site.Title }}</h1>
-    <nav>
+    <h1 id="title"><a class="no-decoration" href="{{ site.Home.Permalink }}">{{ site.Title }}</a></h1>
+    <nav id="navbar">
         <ul>
-            {{ with site.Home }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </li>
-            {{ end }}
-
             {{ range site.RegularPages }}
             <li>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>

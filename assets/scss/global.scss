@@ -1,10 +1,20 @@
 body {
+    // Browser defaults.
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
     background-color: #f2f2f2;
     font-family: sans-serif;
 }
 
 a {
     color: black;
+}
+
+a.no-decoration {
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +28,29 @@ a {
     }
 }
 
+header {
+    display: flex;
+    align-items: center; // Align horizontally.
+    flex-wrap: wrap; // Wrap if needed.
+    justify-content: space-between; // Add a space between the title and the navbar.
+}
+
 header > #title {
     font-size: large;
 }
 
 article {
     font-family: serif;
+}
+
+#navbar > ul {
+    // Browser defaults.
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+
+    display: flex;
+    gap: 10px; // Space between anchors.
+
+    list-style-type: none; // Disable list item marker.
 }
